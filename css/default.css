@@ -11675,3 +11675,24 @@ figure.highlight .section {
 .footer {
   padding: 1rem 1.5rem;
 }
+.hbe-button {
+  display: none !important;
+}
+.hbe-input-field-shrink,
+.hbe-input-field-shrink:focus + .hbe-input-label-shrink .hbe-input-label-content-shrink,
+.input--filled .hbe-input-label-shrink .hbe-input-label-content-shrink,
+.hbe-input-label-xray,
+.hbe-input-field-xray,
+.hbe-graphic-xray,
+.hbe-input-field-xray:focus + .hbe-input-label-xray,
+.input--filled .hbe-input-label-xray,
+.hbe-input-field-xray:focus ~ .hbe-graphic-xray,
+.input--filled .graphic-xray {
+  color: #2a2a2a !important;
+  stroke: #2a2a2a !important;
+}
+.hbe-input-label-shrink::after,
+.hbe-input-field-shrink:focus + .hbe-input-label-shrink::after,
+.input--filled .hbe-input-label-shrink::after {
+  background: #2a2a2a !important;
+}
