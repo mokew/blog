@@ -10748,6 +10748,7 @@ body > .section {
 .image .avatar {
   height: 100%;
   object-fit: cover;
+  border-radius: 50%;
 }
 .image .fill {
   object-fit: cover;
@@ -11671,6 +11672,9 @@ figure.highlight .section {
   .section {
     padding: 1.5rem 1rem;
   }
+}
+.footer {
+  padding: 1rem 1.5rem;
 }
 body {
   counter-reset: card;
